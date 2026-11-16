@@ -1,0 +1,22 @@
+# Raw source data (download from Kaggle, see README)
+data/raw/
+
+# Generated database
+data/processed/*.duckdb
+data/processed/*.duckdb.wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Power BI temporary files
+*.pbi*.tmp
+.pbi/
